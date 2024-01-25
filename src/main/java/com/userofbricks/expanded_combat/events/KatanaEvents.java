@@ -45,9 +45,9 @@ public class KatanaEvents {
                 event.player.getUseItem().getOrCreateTag().putFloat("BlockingPos", 0);
             }
 
-            if (ticksPassed >= 128 && ECVariables.getKatanaArrowBlockNumber(event.player) > 0) {
+            if (ticksPassed >= 256 && ECVariables.getKatanaArrowBlockNumber(event.player) > 0) {
                 ECVariables.setKatanaArrowBlockNumber(event.player, ECVariables.getKatanaArrowBlockNumber(event.player) -1);
-                if (ticksPassed >= 512) ECVariables.setKatanaTimeSinceBlock(event.player, 0);
+                if (ticksPassed >= 1024) ECVariables.setKatanaTimeSinceBlock(event.player, 0);
             }
             ECVariables.setKatanaTimeSinceBlock(event.player, ticksPassed + 1);
         }
