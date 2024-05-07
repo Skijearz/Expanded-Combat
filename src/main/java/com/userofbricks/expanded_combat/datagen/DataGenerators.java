@@ -29,5 +29,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ECSpriteScourceProvider(output, helper));
 
         generator.addProvider(event.includeServer(), new ECGlobalLootModifiersProvider(output));
+
+        generator.addProvider(event.includeServer(), new ECDamageTypeTagsProvider(output, provider, helper));
     }
 }
