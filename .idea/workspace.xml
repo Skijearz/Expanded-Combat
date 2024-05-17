@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2743207d-40d1-4e9c-bc14-3b319443f515" name="Default Changelist" comment="">
+    <list default="true" id="2743207d-40d1-4e9c-bc14-3b319443f515" name="Default Changelist" comment="this should fix the auto clicker infinite dmg bug with gauntlets and elemental weapons.">
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/.cache/e9ab7261975ff80b61279df54728b2a1c9b9eca0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/damage_type/bypasses_cooldown.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/damage_type/is_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/damage_type/is_freezing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/datagen/ECDamageTypeTagsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/init/ECDamageInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/models/blockbench/AllayGloveModel.bbmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/entity/battle_allay/allay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/entity/battle_allay/gauntlet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type/cold_dmg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type/dmg_no_weapon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type/heat_dmg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type/soul_dmg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type/void_dmg.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_data/config/bettercombat/fallback_compatibility.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_data/config/bettercombat/server.json5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_data/config/expanded_combat.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run_data/config/expanded_combat.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/bettercombat/fallback_compatibility.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/bettercombat/server.json5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/expanded_combat.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/fml.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/forge-common.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server/config/twilightforest-common.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/3d309a5597a253a453012605e76906bf1c036a6c" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/3d309a5597a253a453012605e76906bf1c036a6c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/bad_soul_from_blaze_with_soul_gauntlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/bad_soul_from_blaze_with_soul_gauntlet.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/bad_soul_from_blaze_without_soul_gauntlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/bad_soul_from_blaze_without_soul_gauntlet.json" afterDir="false" />
@@ -98,7 +104,9 @@
       <change beforePath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombie_without_soul_gauntlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombie_without_soul_gauntlet.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombified_piglin_with_soul_gauntlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombified_piglin_with_soul_gauntlet.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombified_piglin_without_soul_gauntlet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/expanded_combat/loot_modifiers/good_soul_from_zombified_piglin_without_soul_gauntlet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/events/QuiverEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/events/QuiverEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/datagen/DataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/datagen/DataGenerators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/events/GeneralForgeEventBusEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/events/GeneralForgeEventBusEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/init/ECAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userofbricks/expanded_combat/init/ECAttributes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,20 +190,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;forge-1.20.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jonathan/Documents/GitHub/Expanded-Combat/src/main/resources/assets/minecraft/textures/trims&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "forge-1.20.1",
+    "last_opened_file_path": "/Users/jonathan/Documents/GitHub/Expanded-Combat/src/main/resources/data/expanded_combat/damage_type",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.userofbricks.expanded_combat.item" />
@@ -205,18 +213,18 @@
       <recent name="com.userofbricks.expanded_combat.compatability.epicfight" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/expanded_combat/damage_type" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/trims" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/item_large" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/model/shields/sentry" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/model/shields/empty" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/models/block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/expanded_combat/tags" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/model/gauntlet" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/expanded_combat/textures/model" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/expanded_combat/structures/ancient_city/structures" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/expanded_combat/worldgen/template_pool/ancient_city" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data/expanded_combat/structures" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.userofbricks.expanded_combat.item.materials.MaterialInit" />
@@ -726,7 +734,7 @@
       <option name="project" value="LOCAL" />
       <updated>1691719704092</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -759,8 +767,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modified MaterialConfig to replace repair items by default" />
-    <MESSAGE value="fixed attribute stacking bug causing agility attributes to grow over and over" />
     <MESSAGE value="fixed casting bug hopefully" />
     <MESSAGE value="fixed IngredientUtil ArrayList Usages" />
     <MESSAGE value="fixed Ingredient ArrayList Usages in automatic recipe gen" />
@@ -784,7 +790,9 @@
     <MESSAGE value="added potion durability use to attack of potion weapons" />
     <MESSAGE value="potion now gets reset to empty when uses run out" />
     <MESSAGE value="added potion durability bar to scythes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added potion durability bar to scythes" />
+    <MESSAGE value="fixed inventory rendering of effects rendering on top of arrowSlots" />
+    <MESSAGE value="doubled katana arrow block cool downs" />
+    <option name="LAST_COMMIT_MESSAGE" value="doubled katana arrow block cool downs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
